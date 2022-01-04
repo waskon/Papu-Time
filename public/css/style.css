@@ -103,7 +103,6 @@ main{
     flex-direction: column;
     justify-content: flex-start;
 
-
 }
 
 
@@ -177,7 +176,7 @@ header{
 }
 
 .search-bar>form>input{
-    background: honeydew;
+    background: white;
     margin-top: 1.5em;
     text-align: left;
     border: 1px solid grey;
@@ -186,10 +185,3 @@ header{
     box-sizing: border-box;
 }
 
-.calendary{
-    text-align: center;
-    font: italic normal normal 60px/80px Rage;
-    letter-spacing: 0px;
-    color: #0B3913CC;
-    text-transform: capitalize;
-}
