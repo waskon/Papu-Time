@@ -4,29 +4,113 @@
     align-items: center;
     justify-content: center;
 }
-.calendary{
+.calendary-sign{
     font: italic normal normal 60px/80px Rage;
     letter-spacing: 0px;
     color: #0B3913CC;
     text-transform: capitalize;
 }
 .content{
-    width: 100vw;
-    height: 100vh;
-    background-color: grey;
-    position: relative;
-
     display: flex;
-    align-items: flex-end;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #C1C1C1;
+    
+}
+
+.chosen-package{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.group-column {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    border-left: solid #0B3913CC 4px;
+
+    
+}
+
+.head {
+    font: normal normal normal 50px/67px Segoe UI;
+    letter-spacing: 0px;
+    color: #0A8F29;
+}
+.head-label {
+    margin-left: 20px;
+    font-size: 40px;
+    color: black;
 }
 
 .box{
-    width: 800px;
-    height: 600px;
-    background-color: whitesmoke;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    background-color: #C1C1C1;
+    
+}
+.calendar-area {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    margin-top: 35px;
+    width: 65%;
+    height: 95%;
+    background-color: white;
+}
+.form-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30%;
+    height: 100%;
+}
+/* .jsCalendar table {
+    width: 100% !important;
+    height: 100% !important;
+} */
+
+.head-label1{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 40px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #BCE0FD;
+    border-radius: 4px;
+}
+.head-label1>.fas{
+    font-size: 20px;
+    margin-top: 15px;
 }
 
-.content>div>i{
+
+.head1{
+    margin-top: 10px;
+    font: normal normal bold 32px/22px Arial;
+    letter-spacing: 0px;
+    color: #0A8F29;
+}
+
+.meals{
+     margin-top: 10px;
+}
+
+
+
+
+
+
+/* .content>div>div>i{
+    margin-top: auto;
     font-size: 40px;
     transition: all 0.3s;
 }
@@ -44,12 +128,19 @@
 }
 
 
-.wrapper1 {
+.days-of-week, .days-of-month {
+    margin-top: 0px;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-auto-rows: 200px;
+    grid-auto-rows: 100px;
+    text-align: center;
     
   }
 
-
+  .naglowek{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      font-weight: 900;
+  } */
 
