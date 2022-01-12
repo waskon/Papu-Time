@@ -1,4 +1,10 @@
-.wrapper{justify-content: center;}
+.base-container{
+    margin-bottom: 0px;
+}
+.wrapper{
+    justify-content: center;
+}
+
 .personal-data-sign{
     font: italic normal normal 60px/80px Rage;
     letter-spacing: 0px;
@@ -9,48 +15,64 @@
 .content{
     display: flex;
     flex-direction: row;
-
     width: 100%;
     height: 100%;
     background-color: #C1C1C1;
 }
 
 .head {
-    font: normal normal normal 50px/67px Segoe UI;
+    text-align: left;
+    font: normal normal bold 30px/40px Arial;
     letter-spacing: 0px;
     color: #0A8F29;
+    
 }
 .head-label {
-    margin-top: 10px;
+    margin-bottom: 30px;
     margin-left: 20px;
     font-size: 40px;
 
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
 
+    
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #BCE0FD;
-    border-radius: 4px;
+    border-radius: 4px;    
 }
+
 
 .left-tables{
     display: flex;
     flex-direction: column;
-    align-content: flex-end;
-    margin-top: 35px;
-    
 
-    width: 40%;
+    width: 50%;
     height: 100%;
 }
 
 .right-tables{
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-top: 35px;
+    flex-direction: column;  
     width: 50%;
     height: 100%;
-    background-color: blue;
+    
 }
+
+.street-numbers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.comment-frame{
+    background-color: white;
+    border: 1px solid #BCE0FD;
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
