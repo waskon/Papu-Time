@@ -5,11 +5,13 @@ require 'Routing.php';
 $path = trim($_SERVER['REQUEST_URI'], '/');
 $path = parse_url($path, PHP_URL_PATH);
 
-Routing::get('index', 'DefaultController');
-Routing::get('projects', 'DefaultController');
+Router::get('', 'DefaultController');
+//Router::get('projects', 'DefaultController');
+Router::post('login', 'SecurityController');
 
-Routing::get('calendary', 'DefaultController');
-Routing::get('mainPage', 'DefaultController');
-Routing::get('myData', 'DefaultController');
-Routing::get('diet', 'DefaultController');
-Routing::run($path);
+Router::get('calendary', 'DefaultController');
+Router::get('mainPage', 'DefaultController');
+Router::get('myData', 'DefaultController');
+Router::get('diet', 'DefaultController');
+
+Router::run($path);

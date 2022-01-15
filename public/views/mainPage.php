@@ -5,7 +5,7 @@
     <link rel="stylesheet" type="text/css" href="public/css/diets.css">
 
     <script src="https://kit.fontawesome.com/70da13af9d.js" crossorigin="anonymous"></script>
-    <title>Main Page</title>
+    <title>MAIN PAGE</title>
 </head>
 
 <body>
